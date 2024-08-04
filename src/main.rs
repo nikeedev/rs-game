@@ -97,7 +97,7 @@ impl State for GameState {
 }
 
 fn main() -> tetra::Result {
-    ContextBuilder::new("Keyboard Input", 900, 600)
+    ContextBuilder::new("Rust game", 900, 600)
         .quit_on_escape(true)
         .resizable(true)
         .maximized(true)
